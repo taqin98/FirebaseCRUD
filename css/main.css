@@ -1,0 +1,84 @@
+	.box {
+		//background-color: gray;
+		width: 480px;
+	}
+	input[type=text], select {
+		width: 100%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		display: inline-block;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		box-sizing: border-box;
+	}
+	#user-list > li {
+		font-size: 24px;
+	}
+	#user-list li:hover {
+		color: blue;
+	}
+	#user-list li {
+		padding:5px;
+		cursor: pointer;
+		color:black;
+		font-style: bold;
+		list-style: none 
+	}
+	button {
+		margin-right: 10px;
+	}
+	.edit-user {
+		width: 100px;
+		background-color: #039be5;
+		border: none;
+		border-radius: 5px;
+		color: white;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 12px;
+		letter-spacing: 1px;
+
+		transition-property: box-shadow;
+		transition-duration: 0.2s;
+		transition-timing-function: ease;
+		transition-delay: 0s;
+	}
+	.delete-user {
+		width: 100px;
+		background-color: #ffc107;
+		border: none;
+		border-radius: 5px;
+		color: white;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 12px;
+		letter-spacing: 1px;
+
+		transition-property: box-shadow;
+		transition-duration: 0.2s;
+		transition-timing-function: ease;
+		transition-delay: 0s;
+	}
+
+	button > #btnUpdate, #btnAddUser {
+		width: 100px;
+		background-color: #039be5;
+		border: none;
+		border-radius: 5px;
+		color: white;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 12px;
+		letter-spacing: 1px;
+
+		transition-property: box-shadow;
+		transition-duration: 0.2s;
+		transition-timing-function: ease;
+		transition-delay: 0s;
+	}
